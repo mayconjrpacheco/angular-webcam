@@ -17,7 +17,7 @@ import { Subscription } from 'rxjs';
     `
   ]
 })
-export class AngularWebcamComponent implements OnInit, OnChanges, OnDestroy {
+export class AngularWebcamComponent implements OnInit, OnDestroy {
 
   @Input() public fullscreen: boolean;
   @Input() public facingMode: boolean;
