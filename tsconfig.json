@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "angular-webcam": [
+        "dist/angular-webcam"
+      ],
+      "angular-webcam/*": [
+        "dist/angular-webcam/*"
+      ]
+    }
   }
 }
